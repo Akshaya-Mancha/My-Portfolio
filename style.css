@@ -72,5 +72,19 @@ button:hover {
   height: auto;   /* keeps aspect ratio */
   border-radius: 10px; /* optional rounded corners */
 }
+.social-icons {
+  margin-top: 15px;
+}
 
+.social-icons a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 28px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn blue effect */
+}
 
