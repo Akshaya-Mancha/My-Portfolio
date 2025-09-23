@@ -268,12 +268,14 @@ header ul li a {
   text-decoration: none;
   border-radius: 6px;
   font-size: 14px;
-  transition:background0.3s;
+  transition: background-color 0.3s;
 }
 
 .project-links a:hover {
   background: #005582;
 }
-
+body {
+  background-color: lightyellow; /* test color */
+}
 
 
