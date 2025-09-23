@@ -36,20 +36,36 @@ header ul li a {
 }
 
 
-.social-icons {
-  margin-top: 15px;
+#contact {
+  background: linear-gradient(to right, #f0f0f0, #ffffff);
+  padding: 60px 20px;
+  text-align: center;
 }
 
-.social-icons a {
-  text-decoration: none;
+#contact h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+#contact p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #444;
+}
+
+/* updated social-icons */
+#contact .social-icons a {
   margin: 0 15px;
   font-size: 28px;
   color: #333;
-  transition: color 0.3s;
+  transition: color 0.3s, transform 0.3s;
+  text-decoration: none;
 }
 
-.social-icons a:hover {
-  color: #0077b5; /* LinkedIn blue effect */
+#contact .social-icons a:hover {
+  color: #007bff;  /* matches your button color */
+  transform: scale(1.2);
 }
 #hero {
   padding: 80px 20px;
