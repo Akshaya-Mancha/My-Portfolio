@@ -27,34 +27,41 @@
   </header>
  <!-- git test update -->
   <section id="hero">
-   <div class="left-images">
-    <img src="images/profile.jpg" alt="Profile Photo" class="medium-img">
-  </div>
+   <div class="hero-container">
+    <img src="images/profile.jpg" alt="Profile Photo">
+    <div class="hero-text">
     <h1>Hello, I'am Akshaya 👋</h1>
     <p>A passionate learner and Aspiring Full Stack Java Developer.</p>
     <a href="assets/Resume.pdf"target="_blank">
       <button>Download Resume</button>
     </a>
     <button onclick="scrollToContact()">Contact Me</button>
+    </div>
+   </div>
   </section>
 
   <!-- Updated About -->
-  <section id="about">
+  <section id="about" class="about">
+    <div class="container">
+      <img src="images/about-photo.jpg" alt="about Photo">
+      <div class="text">
     <h2>About Me</h2>
-    <div class="Right-images">
-    <img src="images/about-photo.jpg" alt="about Photo" class="medium-img">
-    </div>
     <p>I am a B.Tech student, interested in web development and problem solving.</p>
+    <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </div>
   </section>
 
   <!-- Updated Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
+  <section id="skills" class="skills">
+    <div class="skills-container">
+        <h2>Skills</h2>
+    <ul class="skills-list">
       <li>HTML, CSS, JavaScript</li>
       <li>Java, Python</li>
       <li>SQL, GitHub</li>
     </ul>
+  </div>
   </section>
 
   <!-- Updated Projects -->
